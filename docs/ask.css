@@ -1,0 +1,27 @@
+#entire {
+  display: table;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+input[name="answer"]{
+  margin: 10px;
+}
+
+#answerBox{
+  display: grid;
+  grid-template-rows: auto;
+  padding: 10px;
+}
+
+label{
+  border: solid black 1px;
+  display: grid;
+  padding: 10px;
+  padding-top: 15px;
+  grid-template-columns: auto auto;
+}
+
+ul{
+  list-style: none;
+}
